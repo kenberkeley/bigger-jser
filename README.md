@@ -110,8 +110,8 @@ $myDiv
   .find('.myInput3').attr('disabled', 'disabled');
 ```
 （有关jQuery选择器的性能以及最佳实践，请看[这篇文章](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)）  
-****
-
+  
+  
 ### UI
 BootStrap烂大街  
 不是我们的菜  
@@ -123,7 +123,7 @@ Foundation6 / Ant Design
 请谨慎使用  
 Semantic UI / UIkit / Amaze UI ...  
 避免不能自拔  
-****
+  
   
 ### 工具库
 后浪lodash把前浪underscore拍死在沙滩上  
@@ -139,8 +139,8 @@ import _ from 'lodash' // 把整个lodash打包进去了
 /* Bigger */
 import isEmpty from 'lodash/isEmpty' // 仅把个别函数打包
 ```
-****
-
+  
+  
 ### 模板引擎
 逼格最高显然是Jade  
 但改名为Pug（哈巴狗）后  
@@ -150,8 +150,8 @@ import isEmpty from 'lodash/isEmpty' // 仅把个别函数打包
 留了胡子（Mustache）  
 扶着把手（Handlebars）  
 默默耕耘  
-****
-
+  
+  
 ### 异步编程
 这里不谈 Q / Bluebird / Async / co / then 等库  
 皆因Babel已经支持所有的异步编程解决方案  
