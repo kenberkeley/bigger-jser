@@ -283,3 +283,18 @@ Ionic更是将Hybrid APP推向高潮
 文艺青年用forever  
 普通青年用pm2  
 装逼青年用Tmux + node  
+****
+  
+## &sect; 结语
+```
+import you, { isGoodPost, star } from 'you'
+import { thank } from 'i'
+
+const me = 'https://github.com/kenberkeley/bigger-jser'
+
+if ( isGoodPost(url) ) {
+  star(me)
+  thank(you)
+}
+```
+  
