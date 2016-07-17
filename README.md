@@ -85,7 +85,7 @@ return c;
 想要装逼且不怕坑，那就上Mootools  
 Prototype？嗯，复古的逼格都是很高的  
   
-一定要说自己c纯粹为了优雅简洁，不得不用jQuery  
+一定要说自己纯粹为了优雅简洁，不得不用jQuery  
 （如何做到jQuery-free，请看[这篇文章](http://www.ruanyifeng.com/blog/2013/05/jquery-free.html)）  
   
 当然，就算是写jQuery  
