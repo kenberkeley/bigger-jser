@@ -1,7 +1,7 @@
 # 前端JSer装逼手册
-> 在装逼成本越来越高的JS圈子，你需要这本手册 ———— 题记
+> 在装逼成本越来越高的JS圈，你需要这本手册 ———— 题记
 
-## 开发
+&sect; ## 开发
 Macbook Pro是标配，美其名曰“提高开发体验”  
 什么？你还在用Spotlight？赶紧给我换Alfred！  
   
@@ -24,8 +24,9 @@ Macbook Pro是标配，美其名曰“提高开发体验”
 但也要说每天都与各国程序员谈笑风生  
 ****
 
-## 语言
-这年头如果还不用Babel + ES6，都不好意思说自己是JSer  
+&sect; ## 语言
+这年头如果还不用Babel + ES6  
+都不好意思说自己是JSer  
 当然还有 TypeScript / CoffeeScript / Dart ...  
 没学过没关系  
 对外人说自己“略懂”即可  
@@ -47,7 +48,7 @@ Macbook Pro是标配，美其名曰“提高开发体验”
   
 ****
 
-## 代码风格
+&sect; ## 代码风格
 摒弃JSLint / JSHint / JSCS，拥抱ESLint  
 尽管平时只是个搬砖的  
 但时刻以世界顶级企业的规范约束自己  
@@ -78,13 +79,13 @@ return c;
 不能让人随便看懂，就像人不能轻易让人看透  
 ****
 
-## 常用库
+&sect; ## 常用库
 ### DOM库
 标配是jQuery，手机端有Zepto作为替代品  
 想要装逼且不怕坑，那就上Mootools  
 Prototype？嗯，复古的逼格都是很高的  
   
-一定要说自己只是为了优雅简洁，不得不用jQuery  
+一定要说自己c纯粹为了优雅简洁，不得不用jQuery  
 （如何做到jQuery-free，请看[这篇文章](http://www.ruanyifeng.com/blog/2013/05/jquery-free.html)）  
   
 当然，就算是写jQuery  
@@ -178,15 +179,15 @@ User.findById(1).then((user) => {
 ```
 ****
 
-## 包管理工具
-如果你也被  
+&sect; ## 包管理工具
+如果你被  
 Bower / spm / Component / Duo ...  
 坑过  
 请回到npm的怀抱  
 什么？jspm？有完没完...  
 ****
 
-## 构建工具
+&sect; ## 构建工具
 想当年我不懂什么是自动构建工具  
 他们说：生命苦短，我们用Grunt  
   
@@ -200,7 +201,7 @@ Bower / spm / Component / Duo ...
 他们叒说：FIS3约不约？。。。  
 ****
 
-## 模块化方案
+&sect; ## 模块化方案
 无论是  
 * RequireJS (AMD)
 * SeaJS (CMD)
@@ -208,11 +209,11 @@ Bower / spm / Component / Duo ...
 * Browserify (CommonJS)
 * ...
   
-最后都庆幸地回归到npm + Webpack  
+最后都庆幸回归到npm + Webpack  
 什么？SystemJS？有完没完...  
 ****
 
-## MV*框架 / 技术栈 / 大型框架
+&sect; ## MV*框架 / 技术栈 / 大型框架
 ### Backbone
 每个人都有一段不堪回首的经历  
 就像当年在QQ空间发“你若安好便是晴天”的说说  
@@ -244,7 +245,7 @@ React已经是前端高逼格的代名词
 （请别再把 YUI / Dojo / Ext / KISSY 扯进来了好伐）  
 ****
 
-## 混合 / 原生开发
+&sect; ## 混合 / 原生开发
 自从PhoneGap出来后  
 貌似我们也能抢安卓/iOS的饭碗了  
 Ionic更是将Hybrid APP推向高潮  
@@ -260,7 +261,7 @@ Ionic更是将Hybrid APP推向高潮
   
 ****
 
-## 后端框架
+&sect; ## 后端框架
 我们一直标榜自己是全栈  
 不玩几下后端框架怎么行  
   
@@ -274,8 +275,8 @@ Ionic更是将Hybrid APP推向高潮
 相信也快转行了  
 ****
 
-## 服务器进程管理
-玩上了后端框架  
+&sect; ## 服务器进程管理
+既然都玩上了后端框架  
 不懂部署服务器怎么行  
   
 二逼青年用supervisor / nodemon  
