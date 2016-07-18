@@ -290,14 +290,10 @@ Ionic更是将Hybrid APP推向高潮
 ****
   
 ## &sect; 结语
-```
-import you, { isGoodPost, star } from 'you'
-import { thank } from 'i'
-
-const me = 'https://github.com/kenberkeley/bigger-jser'
-
-if ( isGoodPost(url) ) {
-  star(me)
-  thank(you)
-}
-```
+`import you, { isGoodPost, star } from 'you'`  
+`import me, { thank } from 'me'`  
+  
+`const url = '`[https://github.com/kenberkeley/bigger-jser](https://github.com/kenberkeley/bigger-jser)`'`  
+  
+`isGoodPost(url) && star(me)`  
+`thank(you)`  
