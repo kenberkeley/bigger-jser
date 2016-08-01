@@ -76,8 +76,7 @@ return c;
 
 ```
 /* Bigger than bigger */
-① return a ? b : c // 不要写分号，留白予人想象的空间
-② return a && b || c
+return a ? b : c // 不要写分号，留白予人想象的空间
 ```
 
 总而言之，代码越短，可读性越差，逼格越高  
