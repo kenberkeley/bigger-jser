@@ -48,7 +48,7 @@ Macbook Pro 是标配，美其名曰“提高开发体验”
 ****
 
 ## &sect; 代码风格
-摒 弃JSLint / JSHint / JSCS，拥抱 ESLint  
+摒弃 JSLint / JSHint / JSCS，拥抱 ESLint  
 尽管平时只是个搬砖的  
 但时刻以世界顶级企业的规范约束自己  
 于是 `eslint-config-airbnb` 成了我们的标配  
