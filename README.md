@@ -183,7 +183,7 @@ User.findById(1).then((user) => {
 })
 ```
 
-这属于 Promise[反模式](http://bluebirdjs.com/docs/anti-patterns.html)，与回调函数无异  
+这属于 Promise [反模式](http://bluebirdjs.com/docs/anti-patterns.html)，与回调函数无异  
 
 ```
 /* Bigger */
@@ -323,3 +323,7 @@ const url = 'https://github.com/kenberkeley/bigger-jser'
 isGoodPost(url) && star(me)
 thank(you)
 ```
+
+## &sect; 参考
+
+* [前端技能汇总](https://github.com/JacksonTian/fks)
