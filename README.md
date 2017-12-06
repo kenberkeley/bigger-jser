@@ -1,4 +1,4 @@
-# 前端JSer装逼手册
+# 前端 JSer 装逼手册
 > 在装逼成本越来越高的 JS 圈，是时候充值一下了 ———— 题记
 
 ## &sect; 开发
@@ -89,7 +89,7 @@ return a ? b : c // 不要写分号，留白予人想象的空间
 ****
 
 ## &sect; 常用库
-### DOM库
+### DOM 库
 标配是 jQuery，手机端有 Zepto 作为替代品  
 想要装逼且不怕坑，那就上 Mootools  
 Prototype？嗯，复古的逼格都是很高的  
@@ -168,14 +168,14 @@ import isEmpty from 'lodash/isEmpty' // 仅把个别函数打包
   
 ### 异步编程
 这里不谈 Q / Bluebird / Async / co / then 等库  
-皆因Babel已经支持所有的异步编程解决方案  
+皆因 Babel 已经支持所有的异步编程解决方案  
 当前最常用的还是Promise  
 
 有些新手会写出这种代码： 
 
 ```
 /* Low */
-// 找出与用户1同市的所有用户
+// 找出与用户 1 同市的所有用户
 User.findById(1).then((user) => {
   User.find({ city: user.city }).then((users) => {
     res.json(users.toJSON())
@@ -238,9 +238,9 @@ Bower / spm / Component / Duo ...
 
 每个人都有一段不堪回首的经历  
 就像当年在 QQ 空间发“你若安好便是晴天”的说说  
-Backbone就是这样子的存在  
+Backbone 就是这样子的存在  
   
-### Angular
+### AngularJS
 
 一定要边吐槽边用，不然就一点都不 ng 了  
 “学习曲线陡峭”不应从你口中说出  
@@ -251,7 +251,7 @@ Backbone就是这样子的存在
 一定要用“优雅”来形容  
 就像用 ES6 一定要“大胆”  
   
-### React技术栈
+### React 技术栈
 
 React 已经是前端高逼格的代名词  
 所以无论懂不懂都要喊：  
@@ -282,7 +282,7 @@ Ionic 更是将 Hybrid APP 推向高潮
 
 别忘了还有桌面的 nw.js 以及 Electron  
   
-> JSer从一入门开始，就掌握了改变世界的能力  
+> JSer 从一入门开始，就掌握了改变世界的能力  
 > 也比其他程序员更容易走向人生的巅峰  
   
 ****
